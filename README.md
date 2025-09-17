@@ -16,3 +16,28 @@ Ia juga menginspirasi perkembangan dalam bidang:
 | 🟩 Hidup             | 2 atau 3              | 🟩 Tetap Hidup     | **Stabilitas (Survival)** — Sel tetap hidup karena kondisi seimbang.                  |
 | 🟩 Hidup             | > 3                   | ⬜ Mati             | **Overpopulasi (Overpopulation)** — Sel mati karena terlalu banyak tetangga.          |
 | ⬜ Mati               | = 3                   | 🟩 Hidup           | **Kelahiran (Reproduction)** — Sel mati menjadi hidup jika tepat tiga tetangga hidup. |
+
+
+## Getting Started
+
+Run:
+
+```console
+brew install raylib
+```
+
+## on linux
+
+Read:
+
+```
+https://github.com/raysan5/raylib/discussions/2673
+```
+
+## Compile
+
+Run:
+
+```console
+make
+```
