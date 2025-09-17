@@ -8,3 +8,11 @@ Ia juga menginspirasi perkembangan dalam bidang:
 - Simulasi biologi dan ekosistem
 - Pemrograman grafis dan AI
 - Seni generatif dan algoritma kreatif
+
+# aturan game
+| Kondisi Sel Saat Ini | Jumlah Tetangga Hidup | Keadaan Berikutnya | Penjelasan                                                                            |
+| -------------------- | --------------------- | ------------------ | ------------------------------------------------------------------------------------- |
+| 🟩 Hidup             | < 2                   | ⬜ Mati             | **Kesepian (Underpopulation)** — Sel mati karena terlalu sedikit tetangga.            |
+| 🟩 Hidup             | 2 atau 3              | 🟩 Tetap Hidup     | **Stabilitas (Survival)** — Sel tetap hidup karena kondisi seimbang.                  |
+| 🟩 Hidup             | > 3                   | ⬜ Mati             | **Overpopulasi (Overpopulation)** — Sel mati karena terlalu banyak tetangga.          |
+| ⬜ Mati               | = 3                   | 🟩 Hidup           | **Kelahiran (Reproduction)** — Sel mati menjadi hidup jika tepat tiga tetangga hidup. |
